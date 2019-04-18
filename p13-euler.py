@@ -25,4 +25,4 @@ p13_answ = str(p13_answ)[:10]
 
 
 
-print("The answer to the 500th problem of ProjectEuler.Net is:",p13_answ)
+print("The answer to the 13th problem of ProjectEuler.Net is:",p13_answ)
