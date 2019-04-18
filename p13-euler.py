@@ -6,15 +6,22 @@ Created on Thu Apr 18 17:40:57 2019
 """
 
 import sys
-sys.path.insert(0, "../src/")
+sys.path.insert(0, "src/")
 
 
+from summator import Summator as SM
+import the_number
+
+
+sm = SM()
 
 
 print("Calculation started")
 
-p13_answ = 0
+p13_answ = sm.sum_num(the_number.the_number)
 
+
+p13_answ = str(p13_answ)[:10]
 
 
 
