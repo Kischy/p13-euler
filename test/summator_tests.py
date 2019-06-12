@@ -15,8 +15,7 @@ from summator import Summator
 class TestSummator(unittest.TestCase):
     
     def setUp(self):
-        self.summator = Summator();
-    
+        self.summator = Summator();    
     
     def test_gives_back_zero_on_empty_string(self):
         self.assertEqual(self.summator.sum_num(""),0)
@@ -30,4 +29,9 @@ class TestSummator(unittest.TestCase):
 
     def test_gives_back_correct_sum_94801234_and_8_and_938(self):
         self.assertEqual(self.summator.sum_num("94801234\n8\n938"),94802180)
+
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity=0)
 
